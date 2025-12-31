@@ -1,163 +1,124 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My Space Links</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- Font Awesome -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+	<meta name="description" content="Hi, Terhubung dengan saya di internet. Berikut semua link resmi saya.">
+    <meta name="keywords" content="Al Ikhsan Nahdillah Muis Malik, @ikhsannahdillah, social media, instagram, linkedin, email, facebook, portfolio">
+    <meta name="author" content="Al Ikhsan Nahdillah Muis Malik">
+    <meta name="robots" content="index, follow">
 
-<style>
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: 'Segoe UI', sans-serif;
-    }
+    <meta property="og:title" content="Al Ikhsan Nahdillah Muis Malik | Links">
+    <meta property="og:description" content="Hi, Terhubung dengan saya di internet. Berikut semua link resmi saya.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ikhsannahdillah.my.id">
+    <meta property="og:image" content="https://media.licdn.com/dms/image/v2/D5603AQElpMvSZuw2ug/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1681178670616?e=1769040000&v=beta&t=75MYZpPJy_KX2bM_tr2-MheoEk7k97tRY1zeqNEZc6c">
 
-    body {
-        height: 100vh;
-        overflow: hidden;
-        color: #fff;
-    }
+    <title>Al Ikhsan Nahdillah Muis Malik | Links</title>
 
-    canvas {
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: -1;
-    }
+    <!-- Font Awesome Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-    .container {
-        max-width: 400px;
-        margin: auto;
-        padding: 30px;
-        text-align: center;
-        margin-top: 40px;
-        backdrop-filter: blur(10px);
-        background: rgba(0, 0, 0, 0.35);
-        border-radius: 20px;
-    }
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #1d2671, #c33764);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+        }
 
-    .profile img {
-        width: 110px;
-        height: 110px;
-        border-radius: 50%;
-        border: 3px solid #fff;
-        margin-bottom: 15px;
-    }
+        .container {
+            width: 100%;
+            max-width: 400px;
+            padding: 30px;
+            text-align: center;
+        }
 
-    .profile h1 {
-        font-size: 24px;
-        margin-bottom: 5px;
-    }
+        .profile img {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+            border: 3px solid #fff;
+        }
 
-    .profile p {
-        font-size: 14px;
-        opacity: 0.8;
-        margin-bottom: 25px;
-    }
+        .profile h1 {
+    margin: 6px 0;
+    font-size: 18px;   /* ?? lebih kecil */
+    font-weight: 600;
+}
 
-    .links a {
-        display: flex;
-        align-items: center;
-        gap: 12px;
-        background: rgba(255, 255, 255, 0.15);
-        color: #fff;
-        text-decoration: none;
-        padding: 14px;
-        margin-bottom: 15px;
-        border-radius: 14px;
-        transition: 0.3s;
-    }
 
-    .links a i {
-        font-size: 20px;
-        width: 28px;
-    }
+        .profile p {
+            font-size: 14px;
+            opacity: 0.85;
+            margin-bottom: 25px;
+        }
 
-    .links a:hover {
-        background: #fff;
-        color: #000;
-        transform: scale(1.05);
-    }
-</style>
+        .links a {
+            display: flex;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.15);
+            color: #fff;
+            text-decoration: none;
+            padding: 14px 18px;
+            margin-bottom: 15px;
+            border-radius: 12px;
+            transition: all 0.3s ease;
+        }
+
+        .links a i {
+            font-size: 20px;
+            width: 30px;
+            margin-right: 12px;
+        }
+
+        .links a span {
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        .links a:hover {
+            background: #fff;
+            color: #1d2671;
+            transform: scale(1.03);
+        }
+    </style>
 </head>
 <body>
 
-<canvas id="space"></canvas>
+    <div class="container">
+        <div class="profile">
+            <img src="https://media.licdn.com/dms/image/v2/D5603AQElpMvSZuw2ug/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1681178670616?e=1769040000&v=beta&t=75MYZpPJy_KX2bM_tr2-MheoEk7k97tRY1zeqNEZc6c" alt="Profile">
+            <h1>AL IKHSAN NAHDILLAH MUIS MALIK</h1>
+            <p>ikhsannahdillah@gmail.com</p>
+        </div>
 
-<div class="container">
-    <div class="profile">
-        <img src="https://via.placeholder.com/150" alt="Profile">
-        <h1>Nama Kamu</h1>
-        <p>@username</p>
+        <div class="links">
+	    <a href="https://www.linkedin.com/in/ikhsannahdillah/" target="_blank">
+                <i class="fab fa-linkedin"></i>
+                <span>Linkedin</span>
+            </a>
+	    <a href="https://ikhsannahdillah.blogspot.com" target="_blank">
+                <i class="fa-solid fa-globe"></i>
+                <span>Blog</span>
+            </a>
+            <a href="https://instagram.com/ikhsannahdillah" target="_blank">
+                <i class="fab fa-instagram"></i>
+                <span>Instagram</span>
+            </a>
+	    <a href="https://facebook.com/ikhsannahdillah" target="_blank">
+                <i class="fab fa-facebook"></i>
+                <span>Facebook</span>
+            </a>
+        </div>
     </div>
-
-    <div class="links">
-        <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
-        <a href="#"><i class="fab fa-x-twitter"></i> Twitter / X</a>
-        <a href="#"><i class="fab fa-youtube"></i> YouTube</a>
-        <a href="#"><i class="fab fa-github"></i> GitHub</a>
-        <a href="#"><i class="fab fa-whatsapp"></i> WhatsApp</a>
-    </div>
-</div>
-
-<script>
-    const canvas = document.getElementById("space");
-    const ctx = canvas.getContext("2d");
-
-    let w, h;
-    function resize() {
-        w = canvas.width = window.innerWidth;
-        h = canvas.height = window.innerHeight;
-    }
-    window.addEventListener("resize", resize);
-    resize();
-
-    const stars = [];
-    const starCount = 200;
-
-    for (let i = 0; i < starCount; i++) {
-        stars.push({
-            x: Math.random() * w,
-            y: Math.random() * h,
-            size: Math.random() * 2,
-            speed: Math.random() * 0.5 + 0.2
-        });
-    }
-
-    let mouseX = 0, mouseY = 0;
-    window.addEventListener("mousemove", e => {
-        mouseX = e.clientX;
-        mouseY = e.clientY;
-    });
-
-    function animate() {
-        ctx.clearRect(0, 0, w, h);
-
-        stars.forEach(star => {
-            star.y += star.speed;
-            if (star.y > h) {
-                star.y = 0;
-                star.x = Math.random() * w;
-            }
-
-            const dx = (mouseX - w / 2) * 0.00005;
-            const dy = (mouseY - h / 2) * 0.00005;
-
-            ctx.beginPath();
-            ctx.arc(star.x + dx * 100, star.y + dy * 100, star.size, 0, Math.PI * 2);
-            ctx.fillStyle = "white";
-            ctx.fill();
-        });
-
-        requestAnimationFrame(animate);
-    }
-
-    animate();
-</script>
 
 </body>
 </html>
